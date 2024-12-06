@@ -14,7 +14,7 @@ const SignupPage = () => {
   
     try {
        // Fetch existing data from SheetDB
-    const response = await fetch('https://sheetdb.io/api/v1/nqegmplge76ah');
+    const response = await fetch('https://sheetdb.io/api/v1/w9vcgm2tt99n0');
     const existingData = await response.json();
 
     // Filter IDs starting with '#fintex'
@@ -31,7 +31,7 @@ const SignupPage = () => {
     const newId = `#fintex${newNumber.toString().padStart(3, '0')}`; // e.g., #fintex001
   
       // Proceed with form submission if email doesn't exist
-      const submitResponse = await fetch('https://sheetdb.io/api/v1/nqegmplge76ah', {
+      const submitResponse = await fetch('https://sheetdb.io/api/v1/w9vcgm2tt99n0', {
         method: 'POST',
         headers: {
           'Accept': 'application/json',
