@@ -7,7 +7,7 @@ import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 
 const Info = () => {
-    const [state, handleSubmit] = useForm("xdknperk");
+    const [state, handleSubmit] = useForm("xovaejbp");
 
     const onSubmit = async (event) => {
         event.preventDefault();
